@@ -8,7 +8,9 @@
 #include <iostream>
 #include <string>
 #include <vector>
-
+#include <QtCore>
+#include <QtGui>
+#include <QGraphicsScene>
 
 
 QT_BEGIN_NAMESPACE
@@ -55,6 +57,8 @@ private:
     qint16 port_send;
     QString ip_command;
     QString packet;
+    QGraphicsScene *scene;
+    qint16 length_scene;
 
 
 };

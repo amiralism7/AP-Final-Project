@@ -5,12 +5,43 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
-    , port_broadcast{1234}
     , command_ip{"192.168.100.62"}
     , command_port{1235}
+    , cell_num{11}
+    , port_broadcast{1234}
+    , length_scene{300}
 {
     ui->setupUi(this);
 
+    scene = new QGraphicsScene(this);
+    ui->graphicsView->setScene(scene);
+
+    QGraphicsRectItem *rectangle;
+    QGraphicsLineItem *line;
+    QBrush brush(Qt::black);
+    QPen pen(Qt::black);
+    qint16 part{static_cast<short int> (length_scene*2/cell_num)};
+    // rectangle = scene->addRect(0, 0, 2 , 2, pen, brush);
+    rectangle = scene->addRect(-length_scene,-length_scene, length_scene*2 , part, pen, brush);
+    rectangle = scene->addRect(-length_scene, length_scene, length_scene*2 , part, pen, brush);
+    rectangle = scene->addRect(-length_scene, -length_scene, part , length_scene*2, pen, brush);
+    rectangle = scene->addRect( length_scene, -length_scene, part , length_scene*2 + part, pen, brush);
+    QPen pen2(Qt::red);
+    
+    qint16 x1{static_cast<short int>(-length_scene+part)};
+    qint16 y1{static_cast<short int>(-length_scene+part)};
+    qint16 x2{static_cast<short int>(-length_scene+part)};
+    qint16 y2{static_cast<short int>(length_scene)};
+    // line = scene->addLine(x1, y1, x2, y2, pen2);
+    for (size_t i{}; i<cell_num*2; i++)
+    {
+        line = scene->addLine(x1, y1, x2, y2, pen2);
+        x1 += part;
+        x2 += part;
+        
+    }
+
+    
 
     udp_r.bind(QHostAddress{"0.0.0.0"}, port_broadcast);
     connect(&udp_r, &QUdpSocket::readyRead, this, &MainWindow::handle_incoming);
@@ -62,6 +93,21 @@ void MainWindow::parse (std::string s)
 
     ui->red_score_label->setText(score_red);
     ui->our_score_label->setText(score_blue);
+
+// Now we wannt to draw
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     for (auto x:values)

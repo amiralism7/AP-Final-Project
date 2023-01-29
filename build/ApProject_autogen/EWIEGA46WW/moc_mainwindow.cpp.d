@@ -1,113 +1,360 @@
 /media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term\ 9/AP/Project/ApProject/build/ApProject_autogen/EWIEGA46WW/moc_mainwindow.cpp: /media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term\ 9/AP/Project/ApProject/mainwindow.h \
   /media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term\ 9/AP/Project/ApProject/build/ApProject_autogen/moc_predefs.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QDeadlineTimer \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QEvent \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QHash \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QList \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QMap \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QMargins \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QMutex \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QObject \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QRect \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QScopedPointer \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QSize \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QSizeF \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QString \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QStringList \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QVariant \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QtCore \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/QtCoreDepends \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/q20algorithm.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/q20functional.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/q20iterator.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/q23functional.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qabstractanimation.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qabstracteventdispatcher.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qabstractitemmodel.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qabstractnativeeventfilter.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qabstractproxymodel.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qalgorithms.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qanimationgroup.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qanystringview.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qapplicationstatic.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qarraydata.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qarraydataops.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qarraydatapointer.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qassociativeiterable.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qatomic.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qatomic_cxx11.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qbasicatomic.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qbasictimer.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qbindingstorage.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qbitarray.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qbuffer.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qbytearray.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qbytearraylist.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qbytearraymatcher.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qbytearrayview.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcache.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcalendar.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcborarray.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcborcommon.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcbormap.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcborstream.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcborstreamreader.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcborstreamwriter.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcborvalue.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qchar.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcollator.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcommandlineoption.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcommandlineparser.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcompare.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcompare_impl.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcompilerdetection.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qconcatenatetablesproxymodel.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qconfig.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcontainerfwd.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcontainerinfo.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcontainertools_impl.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcontiguouscache.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcoreapplication.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcoreevent.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcryptographichash.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qdatastream.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qdatetime.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qdeadlinetimer.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qdebug.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qdir.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qdiriterator.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qeasingcurve.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qelapsedtimer.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qendian.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qeventloop.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qexception.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qfactoryinterface.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qfile.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qfiledevice.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qfileinfo.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qfileselector.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qfilesystemwatcher.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qflags.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qfloat16.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qforeach.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qfuture.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qfuture_impl.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qfutureinterface.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qfuturesynchronizer.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qfuturewatcher.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qgenericatomic.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qglobal.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qglobalstatic.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qhash.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qidentityproxymodel.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qiodevice.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qiodevicebase.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qitemselectionmodel.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qiterable.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qiterator.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qjnienvironment.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qjniobject.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qjnitypes.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qjsonarray.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qjsondocument.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qjsonobject.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qlibrary.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qlibraryinfo.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qline.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qlist.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qlocale.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qlockfile.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qlogging.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qloggingcategory.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qmap.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qmargins.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qmath.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qmessageauthenticationcode.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qmetacontainer.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qmetaobject.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qmetatype.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qmimedata.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qmimedatabase.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qmimetype.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qmutex.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qnamespace.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qnativeinterface.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qnumeric.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qobject.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qobject_impl.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qobjectcleanuphandler.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qobjectdefs.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qoperatingsystemversion.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qpair.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qparallelanimationgroup.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qpauseanimation.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qplugin.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qpluginloader.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qpoint.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qpointer.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qprocess.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qprocessordetection.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qpromise.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qproperty.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qpropertyanimation.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qpropertyprivate.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qqueue.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qrandom.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qreadwritelock.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qrect.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qrefcount.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qregularexpression.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qresource.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qresultstore.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qrunnable.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsavefile.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qscopedpointer.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qscopedvaluerollback.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qscopeguard.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsemaphore.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsequentialanimationgroup.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsequentialiterable.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qset.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsettings.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qshareddata.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qshareddata_impl.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsharedmemory.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsharedpointer.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsignalmapper.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsimd.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsize.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsocketnotifier.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsortfilterproxymodel.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstack.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstandardpaths.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstorageinfo.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstring.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstringalgorithms.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstringbuilder.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstringconverter.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstringconverter_base.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstringfwd.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstringlist.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstringlistmodel.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstringliteral.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstringmatcher.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstringtokenizer.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qstringview.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsysinfo.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsystemdetection.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qsystemsemaphore.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtaggedpointer.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtconfigmacros.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtcore-config.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtcoreexports.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtcoreversion.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtemporarydir.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtemporaryfile.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtextboundaryfinder.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtextstream.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qthread.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qthreadpool.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qthreadstorage.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtimeline.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtimer.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtimezone.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtmetamacros.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtranslator.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtransposeproxymodel.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtsan_impl.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qtypeinfo.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qurl.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qurlquery.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qutf8stringview.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/quuid.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qvariant.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qvariantanimation.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qvarianthash.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qvariantlist.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qvariantmap.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qvarlengtharray.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qvector.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qversionnumber.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qversiontagging.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qwaitcondition.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qwineventnotifier.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qxmlstream.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qxpfunctional.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/QPaintDevice \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/QPaintDeviceWindow \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/QSurfaceFormat \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/QTransform \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/QWindow \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/QtGui \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/QtGuiDepends \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qabstractfileiconprovider.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qabstracttextdocumentlayout.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qaccessible.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qaccessible_base.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qaccessiblebridge.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qaccessibleobject.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qaccessibleplugin.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qaction.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qactiongroup.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qbackingstore.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qbitmap.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qbrush.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qclipboard.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qcolor.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qcolorspace.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qcolortransform.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qcursor.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qdesktopservices.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qdrag.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qevent.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qeventpoint.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qfilesystemmodel.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qfont.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qfontdatabase.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qfontinfo.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qfontmetrics.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qgenericmatrix.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qgenericplugin.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qgenericpluginfactory.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qglyphrun.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qguiapplication.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qguiapplication_platform.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qicon.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qiconengine.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qiconengineplugin.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qimage.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qimageiohandler.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qimagereader.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qimagewriter.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qinputdevice.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qinputmethod.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qkeysequence.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qmatrix4x4.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qmovie.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qoffscreensurface.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qoffscreensurface_platform.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qopengl.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qopenglcontext.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qopenglcontext_platform.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qopenglext.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qopenglextrafunctions.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qopenglfunctions.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpagedpaintdevice.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpagelayout.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpageranges.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpagesize.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpaintdevice.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpaintdevicewindow.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpaintengine.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpainter.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpainterpath.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpalette.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpdfwriter.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpen.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpicture.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpixelformat.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpixmap.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpixmapcache.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpointingdevice.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qpolygon.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qquaternion.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qrasterwindow.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qrawfont.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qregion.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qrgb.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qrgba64.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qrgbafloat.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qscreen.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qsessionmanager.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qshortcut.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qstandarditemmodel.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qstatictext.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qstylehints.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qsurface.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qsurfaceformat.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qsyntaxhighlighter.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtextcursor.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtextdocument.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtextdocumentfragment.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtextdocumentwriter.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtextformat.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtextlayout.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtextlist.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtextobject.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtextoption.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtexttable.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtgui-config.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtguiexports.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtguiglobal.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtguiversion.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qtransform.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qundogroup.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qundostack.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qvalidator.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qvector2d.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qvector3d.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qvector4d.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qvectornd.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qwindow.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/qwindowdefs.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtNetwork/QNetworkDatagram \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtNetwork/QUdpSocket \
@@ -118,7 +365,9 @@
   /home/amirali/Qt/6.4.2/gcc_64/include/QtNetwork/qtnetworkexports.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtNetwork/qtnetworkglobal.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtNetwork/qudpsocket.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QGraphicsScene \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QMainWindow \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qgraphicsscene.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qsizepolicy.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qtabwidget.h \
@@ -126,6 +375,7 @@
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qwidget.h \
+  /usr/include/GL/gl.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -151,6 +401,7 @@
   /usr/include/c++/11/bits/c++0x_warning.h \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/codecvt.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
@@ -160,6 +411,10 @@
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_defines.h \
   /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/fs_dir.h \
+  /usr/include/c++/11/bits/fs_fwd.h \
+  /usr/include/c++/11/bits/fs_ops.h \
+  /usr/include/c++/11/bits/fs_path.h \
   /usr/include/c++/11/bits/functexcept.h \
   /usr/include/c++/11/bits/functional_hash.h \
   /usr/include/c++/11/bits/hash_bytes.h \
@@ -170,8 +425,11 @@
   /usr/include/c++/11/bits/list.tcc \
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/localefwd.h \
   /usr/include/c++/11/bits/max_size_type.h \
   /usr/include/c++/11/bits/memoryfwd.h \
@@ -184,6 +442,7 @@
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/bits/quoted_string.h \
   /usr/include/c++/11/bits/range_access.h \
   /usr/include/c++/11/bits/ranges_algo.h \
   /usr/include/c++/11/bits/ranges_algobase.h \
@@ -235,12 +494,14 @@
   /usr/include/c++/11/climits \
   /usr/include/c++/11/clocale \
   /usr/include/c++/11/cmath \
+  /usr/include/c++/11/codecvt \
   /usr/include/c++/11/compare \
   /usr/include/c++/11/concepts \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/cstdint \
   /usr/include/c++/11/cstdlib \
   /usr/include/c++/11/cstring \
+  /usr/include/c++/11/ctime \
   /usr/include/c++/11/cwchar \
   /usr/include/c++/11/cwctype \
   /usr/include/c++/11/debug/assertions.h \
@@ -254,8 +515,11 @@
   /usr/include/c++/11/ext/numeric_traits.h \
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/filesystem \
   /usr/include/c++/11/functional \
+  /usr/include/c++/11/future \
   /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/iomanip \
   /usr/include/c++/11/ios \
   /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/iostream \
@@ -263,6 +527,7 @@
   /usr/include/c++/11/iterator \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
+  /usr/include/c++/11/locale \
   /usr/include/c++/11/map \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/new \
@@ -274,10 +539,12 @@
   /usr/include/c++/11/pstl/glue_algorithm_defs.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /usr/include/c++/11/random \
   /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/streambuf \
   /usr/include/c++/11/string \
   /usr/include/c++/11/string_view \
+  /usr/include/c++/11/system_error \
   /usr/include/c++/11/tr1/bessel_function.tcc \
   /usr/include/c++/11/tr1/beta_function.tcc \
   /usr/include/c++/11/tr1/ell_integral.tcc \
@@ -302,6 +569,8 @@
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/inttypes.h \
+  /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/errno.h \
   /usr/include/linux/limits.h \
@@ -403,13 +672,99 @@
   /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/syscall.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124fmapsintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx5124vnniwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/immintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/keylockerintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/lzcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/smmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/xtestintrin.h
