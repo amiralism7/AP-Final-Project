@@ -68,7 +68,7 @@ include CMakeFiles/ApProject_autogen.dir/progress.make
 
 CMakeFiles/ApProject_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target ApProject"
-	/usr/bin/cmake -E cmake_autogen "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles/ApProject_autogen.dir/AutogenInfo.json" ""
+	/usr/bin/cmake -E cmake_autogen "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles/ApProject_autogen.dir/AutogenInfo.json" Debug
 
 ApProject_autogen: CMakeFiles/ApProject_autogen
 ApProject_autogen: CMakeFiles/ApProject_autogen.dir/build.make

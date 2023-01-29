@@ -73,43 +73,43 @@ CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.o: CMakeFiles/Ap
 CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.o: ApProject_autogen/mocs_compilation.cpp
 CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.o: CMakeFiles/ApProject.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.o -MF CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.o -c "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/ApProject_autogen/mocs_compilation.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.o -MF CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.o -c "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/ApProject_autogen/mocs_compilation.cpp"
 
 CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/ApProject_autogen/mocs_compilation.cpp" > CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/ApProject_autogen/mocs_compilation.cpp" > CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/ApProject_autogen/mocs_compilation.cpp" -o CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/ApProject_autogen/mocs_compilation.cpp" -o CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/ApProject.dir/main.cpp.o: CMakeFiles/ApProject.dir/flags.make
 CMakeFiles/ApProject.dir/main.cpp.o: ../main.cpp
 CMakeFiles/ApProject.dir/main.cpp.o: CMakeFiles/ApProject.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ApProject.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ApProject.dir/main.cpp.o -MF CMakeFiles/ApProject.dir/main.cpp.o.d -o CMakeFiles/ApProject.dir/main.cpp.o -c "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/main.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ApProject.dir/main.cpp.o -MF CMakeFiles/ApProject.dir/main.cpp.o.d -o CMakeFiles/ApProject.dir/main.cpp.o -c "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/main.cpp"
 
 CMakeFiles/ApProject.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ApProject.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/main.cpp" > CMakeFiles/ApProject.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/main.cpp" > CMakeFiles/ApProject.dir/main.cpp.i
 
 CMakeFiles/ApProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ApProject.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/main.cpp" -o CMakeFiles/ApProject.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/main.cpp" -o CMakeFiles/ApProject.dir/main.cpp.s
 
 CMakeFiles/ApProject.dir/mainwindow.cpp.o: CMakeFiles/ApProject.dir/flags.make
 CMakeFiles/ApProject.dir/mainwindow.cpp.o: ../mainwindow.cpp
 CMakeFiles/ApProject.dir/mainwindow.cpp.o: CMakeFiles/ApProject.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ApProject.dir/mainwindow.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ApProject.dir/mainwindow.cpp.o -MF CMakeFiles/ApProject.dir/mainwindow.cpp.o.d -o CMakeFiles/ApProject.dir/mainwindow.cpp.o -c "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/mainwindow.cpp"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ApProject.dir/mainwindow.cpp.o -MF CMakeFiles/ApProject.dir/mainwindow.cpp.o.d -o CMakeFiles/ApProject.dir/mainwindow.cpp.o -c "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/mainwindow.cpp"
 
 CMakeFiles/ApProject.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ApProject.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/mainwindow.cpp" > CMakeFiles/ApProject.dir/mainwindow.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/mainwindow.cpp" > CMakeFiles/ApProject.dir/mainwindow.cpp.i
 
 CMakeFiles/ApProject.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ApProject.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/mainwindow.cpp" -o CMakeFiles/ApProject.dir/mainwindow.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/mainwindow.cpp" -o CMakeFiles/ApProject.dir/mainwindow.cpp.s
 
 # Object files for target ApProject
 ApProject_OBJECTS = \
@@ -125,10 +125,11 @@ ApProject: CMakeFiles/ApProject.dir/main.cpp.o
 ApProject: CMakeFiles/ApProject.dir/mainwindow.cpp.o
 ApProject: CMakeFiles/ApProject.dir/build.make
 ApProject: /home/amirali/Qt/6.4.2/gcc_64/lib/libQt6Widgets.so.6.4.2
+ApProject: /home/amirali/Qt/6.4.2/gcc_64/lib/libQt6Network.so.6.4.2
 ApProject: /home/amirali/Qt/6.4.2/gcc_64/lib/libQt6Gui.so.6.4.2
-ApProject: /home/amirali/Qt/6.4.2/gcc_64/lib/libQt6Core.so.6.4.2
 ApProject: /usr/lib/x86_64-linux-gnu/libGLX.so
 ApProject: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+ApProject: /home/amirali/Qt/6.4.2/gcc_64/lib/libQt6Core.so.6.4.2
 ApProject: CMakeFiles/ApProject.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ApProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ApProject.dir/link.txt --verbose=$(VERBOSE)

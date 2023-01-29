@@ -54,7 +54,6 @@
 		"/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake",
 		"/usr/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake",
 		"/usr/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake",
-		"/usr/share/cmake-3.22/Modules/CheckIncludeFile.cxx.in",
 		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
 		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
@@ -347,13 +346,55 @@
 		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake",
 		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake",
 		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake",
-		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6NetworkTargets-relwithdebinfo.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-relwithdebinfo.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-relwithdebinfo.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-relwithdebinfo.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake",
+		"/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake",
+		"/home/amirali/Qt/6.4.2/gcc_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
+		[
+			"/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/include/udp_R.h",
+			"MU",
+			"6YEA5652QU/moc_udp_R.cpp",
+			null
+		],
+		[
+			"/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/include/udp_S.h",
+			"MU",
+			"6YEA5652QU/moc_udp_S.cpp",
+			null
+		],
 		[
 			"/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/mainwindow.h",
 			"MU",
@@ -364,7 +405,7 @@
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/ApProject_autogen/include",
 	"MOC_COMPILATION_FILE" : "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/ApProject_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NETWORK_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -374,11 +415,13 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/include",
 		"/home/amirali/Qt/6.4.2/gcc_64/include/QtCore",
 		"/home/amirali/Qt/6.4.2/gcc_64/include",
 		"/home/amirali/Qt/6.4.2/gcc_64/mkspecs/linux-g++",
 		"/home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets",
 		"/home/amirali/Qt/6.4.2/gcc_64/include/QtGui",
+		"/home/amirali/Qt/6.4.2/gcc_64/include/QtNetwork",
 		"/usr/include",
 		"/usr/include/c++/11",
 		"/usr/include/x86_64-linux-gnu/c++/11",
@@ -399,7 +442,7 @@
 	"MOC_PATH_PREFIX" : false,
 	"MOC_PREDEFS_CMD" : 
 	[
-		"/usr/bin/c++",
+		"/usr/bin/g++",
 		"-dM",
 		"-E",
 		"-c",

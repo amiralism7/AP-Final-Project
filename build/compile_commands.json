@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I\"/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/ApProject_autogen/include\" -I\"/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/include\" -isystem /home/amirali/Qt/6.4.2/gcc_64/include/QtCore -isystem /home/amirali/Qt/6.4.2/gcc_64/include -isystem /home/amirali/Qt/6.4.2/gcc_64/mkspecs/linux-g++ -isystem /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets -isystem /home/amirali/Qt/6.4.2/gcc_64/include/QtGui -isystem /home/amirali/Qt/6.4.2/gcc_64/include/QtNetwork -g -fPIC -std=gnu++17 -o CMakeFiles/ApProject.dir/ApProject_autogen/mocs_compilation.cpp.o -c \"/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/ApProject_autogen/mocs_compilation.cpp\"",
+  "file": "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/ApProject_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I\"/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/ApProject_autogen/include\" -I\"/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/include\" -isystem /home/amirali/Qt/6.4.2/gcc_64/include/QtCore -isystem /home/amirali/Qt/6.4.2/gcc_64/include -isystem /home/amirali/Qt/6.4.2/gcc_64/mkspecs/linux-g++ -isystem /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets -isystem /home/amirali/Qt/6.4.2/gcc_64/include/QtGui -isystem /home/amirali/Qt/6.4.2/gcc_64/include/QtNetwork -g -fPIC -std=gnu++17 -o CMakeFiles/ApProject.dir/main.cpp.o -c \"/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/main.cpp\"",
+  "file": "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/main.cpp"
+},
+{
+  "directory": "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I\"/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/ApProject_autogen/include\" -I\"/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/include\" -isystem /home/amirali/Qt/6.4.2/gcc_64/include/QtCore -isystem /home/amirali/Qt/6.4.2/gcc_64/include -isystem /home/amirali/Qt/6.4.2/gcc_64/mkspecs/linux-g++ -isystem /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets -isystem /home/amirali/Qt/6.4.2/gcc_64/include/QtGui -isystem /home/amirali/Qt/6.4.2/gcc_64/include/QtNetwork -g -fPIC -std=gnu++17 -o CMakeFiles/ApProject.dir/mainwindow.cpp.o -c \"/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/mainwindow.cpp\"",
+  "file": "/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/mainwindow.cpp"
+}
+]
