@@ -355,7 +355,6 @@ CMakeFiles/ApProject.dir/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term\ 9/AP/Project/ApProject/include/udp_R.h \
  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QApplication \
  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qapplication.h \
  /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcoreapplication.h \

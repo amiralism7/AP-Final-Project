@@ -11,8 +11,11 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+
     udp_r.bind(QHostAddress{"0.0.0.0"}, port_broadcast);
     connect(&udp_r, &QUdpSocket::readyRead, this, &MainWindow::handle_incoming);
+
+
     connect(ui->lineEdit_port_bc, &QLineEdit::editingFinished, this, &MainWindow::change_bc_port);
     connect(ui->lineEdit_command_ip, &QLineEdit::editingFinished, this, &MainWindow::change_command_ip);
     connect(ui->lineEdit_port, &QLineEdit::editingFinished, this, &MainWindow::change_command_port);
@@ -89,23 +92,31 @@ void MainWindow::change_command_port()
 
 void MainWindow::go_up()
 {
-    
     packet = "Up";
-    udp_s.writeDatagram(packet.toStdString().c_str(), packet.length(), QHostAddress{command_ip}, port_broadcast);
+    udp_s.writeDatagram(packet.toStdString().c_str(), packet.length(), QHostAddress{command_ip}, command_port);
     qDebug() << " ";
     qDebug() << "sending to ip: " << command_ip << " and port: " << command_port << "and message: " << packet.toStdString().c_str() << "with length: " << packet.length();
 }
 void MainWindow::go_right()
 {
-    
+    packet = "Right";
+    udp_s.writeDatagram(packet.toStdString().c_str(), packet.length(), QHostAddress{command_ip}, command_port);
+    qDebug() << " ";
+    qDebug() << "sending to ip: " << command_ip << " and port: " << command_port << "and message: " << packet.toStdString().c_str() << "with length: " << packet.length();
 }
 void MainWindow::go_left()
 {
-    
+    packet = "Left";
+    udp_s.writeDatagram(packet.toStdString().c_str(), packet.length(), QHostAddress{command_ip}, command_port);
+    qDebug() << " ";
+    qDebug() << "sending to ip: " << command_ip << " and port: " << command_port << "and message: " << packet.toStdString().c_str() << "with length: " << packet.length();
 }
 void MainWindow::go_down()
 {
-    
+    packet = "Down";
+    udp_s.writeDatagram(packet.toStdString().c_str(), packet.length(), QHostAddress{command_ip}, command_port);
+    qDebug() << " ";
+    qDebug() << "sending to ip: " << command_ip << " and port: " << command_port << "and message: " << packet.toStdString().c_str() << "with length: " << packet.length();
 }
 
 

@@ -829,7 +829,6 @@ CMakeFiles/ApProject.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../include/udp_R.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QApplication \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qapplication.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcoreapplication.h \
@@ -1633,8 +1632,6 @@ CMakeFiles/ApProject.dir/mainwindow.cpp.o: ../mainwindow.cpp \
 /usr/include/wctype.h:
 
 /usr/include/sched.h:
-
-../include/udp_R.h:
 
 /usr/include/pthread.h:
 
