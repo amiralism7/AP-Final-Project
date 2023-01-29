@@ -1,0 +1,8 @@
+/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles/ApProject.dir
+/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles/edit_cache.dir
+/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles/rebuild_cache.dir
+/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles/list_install_components.dir
+/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles/install.dir
+/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles/install/local.dir
+/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles/install/strip.dir
+/media/amirali/8AC0C7E8C0C7D919/amirali/Dars/Term 9/AP/Project/ApProject/build/CMakeFiles/ApProject_autogen.dir
