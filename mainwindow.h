@@ -26,15 +26,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-    void handle_incoming()
-    {
-        QNetworkDatagram recv = udp_r.receiveDatagram();
-        // qDebug() << recv.data();
-        std::string s{recv.data()};
-        MainWindow::parse(s);
-        // std::cout << s << std::endl;
-        
-    }
+    void handle_incoming();
     void parse (std::string s);
     void change_bc_port();
     void change_command_ip();
@@ -62,6 +54,13 @@ private:
     QString packet;
     QGraphicsScene *scene;
     qint16 length_scene;
+    std::vector<std::vector<int>> map;
+    // std::vector<std::vector<int>> map_tmp;
+    std::vector<int> row_tmp;
+    qint16 head_x;
+    qint16 head_y;
+
+    
 
 
 };

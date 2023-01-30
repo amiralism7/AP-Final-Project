@@ -7,9 +7,10 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
     , command_ip{"192.168.100.62"}
     , command_port{1235}
-    , cell_num{51}
+    , cell_num{13}
     , port_broadcast{1234}
-    , length_scene{static_cast<short int> (static_cast<short int> (600/cell_num)*cell_num)}
+    , packet{"Right"}
+    , length_scene{static_cast<short int> ((static_cast<short int>(600/cell_num))*cell_num)}
 {
     ui->setupUi(this);
 
@@ -54,6 +55,26 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+void MainWindow::handle_incoming()
+{
+    QNetworkDatagram recv = udp_r.receiveDatagram();
+    // qDebug() << recv.data();
+    std::string s{recv.data()};
+    MainWindow::parse(s);
+    // std::cout << s << std::endl;
+
+
+    // for (size_t i{}; i<cell_num; i++)
+    // {
+    //     for (size_t j{}; j<cell_num; j++)
+    //     {
+    //         std::cout<< map[i][j] << "    ";
+    //     }
+    //     std::cout<< std::endl;
+    // }
+    // std::cout<< "*********************************************" <<std::endl;
+}
+
 void MainWindow::parse (std::string s)
 {
     std::vector<std::string> values;
@@ -175,6 +196,45 @@ void MainWindow::go_down()
 }
 void MainWindow::set_field()
 {
+    // std::vector<std::vector<int>> map_tmp;
+    // std::vector<int> row_tmp;
+
+    map.clear();
+    row_tmp.clear();
+    for (size_t j{}; j<cell_num; j++)
+    {
+        row_tmp.push_back(0);
+    }
+    map.push_back(std::move(row_tmp));
+    row_tmp.clear();
+
+    // for (size_t j{}; j<cell_num; j++)
+    // {
+    //     std::cout<< map[0][j] << "    ";
+    // }
+    // std::cout<< std::endl;
+
+    for (size_t i{}; i<cell_num-2; i++)
+    {
+        row_tmp.push_back(0);
+        for (size_t j{}; j<cell_num-2; j++)
+        {
+            row_tmp.push_back(1);
+        }
+        row_tmp.push_back(0);
+        map.push_back(std::move(row_tmp));
+        row_tmp.clear();
+    }
+    for (size_t j{}; j<cell_num; j++)
+    {
+        row_tmp.push_back(0);
+    }
+    map.push_back(std::move(row_tmp));
+    row_tmp.clear();
+
+
+  
+
     QGraphicsRectItem *rectangle;
     QGraphicsLineItem *line;
     QBrush brush(Qt::black);
@@ -194,6 +254,22 @@ void MainWindow::set_field()
     }
 
     draw_element((cell_num-1)/2 - 2, (cell_num-1)/2, (cell_num-1)/2 + 2, (cell_num-1)/2 );
+
+
+
+    map[(cell_num-1)/2][(cell_num-1)/2 - 2]=0;
+    map[(cell_num-1)/2][(cell_num-1)/2 + 2]=0;
+
+    head_x = (cell_num-1)/2 + 2;
+    head_y = (cell_num-1)/2;
+    // for (size_t i{}; i<cell_num; i++)
+    // {
+    //     for (size_t j{}; j<cell_num; j++)
+    //     {
+    //         std::cout<< map[i][j] << "    ";
+    //     }
+    //     std::cout<< std::endl;
+    // }
 }
 void MainWindow::draw_element(qint16 x_red, qint16 y_red, qint16 x_blue, qint16 y_blue)
 {
@@ -205,5 +281,12 @@ void MainWindow::draw_element(qint16 x_red, qint16 y_red, qint16 x_blue, qint16 
     QBrush brush_blue(Qt::blue);
     rectangle = scene->addRect((x_blue)*part, (y_blue)*part, part , part, pen_blue, brush_blue);
     rectangle = scene->addRect((x_red)*part, (y_red)*part, part , part, pen_red, brush_red);
+
+    head_x = x_blue;
+    head_y = y_blue;
+    
+    map[y_blue][x_blue] = 0;
+
+    
 }
 
