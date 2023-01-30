@@ -7,40 +7,33 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
     , command_ip{"192.168.100.62"}
     , command_port{1235}
-    , cell_num{11}
+    , cell_num{51}
     , port_broadcast{1234}
-    , length_scene{300}
+    , length_scene{static_cast<short int> (static_cast<short int> (600/cell_num)*cell_num)}
 {
     ui->setupUi(this);
 
     scene = new QGraphicsScene(this);
     ui->graphicsView->setScene(scene);
-
-    QGraphicsRectItem *rectangle;
-    QGraphicsLineItem *line;
-    QBrush brush(Qt::black);
-    QPen pen(Qt::black);
-    qint16 part{static_cast<short int> (length_scene*2/cell_num)};
-    // rectangle = scene->addRect(0, 0, 2 , 2, pen, brush);
-    rectangle = scene->addRect(-length_scene,-length_scene, length_scene*2 , part, pen, brush);
-    rectangle = scene->addRect(-length_scene, length_scene, length_scene*2 , part, pen, brush);
-    rectangle = scene->addRect(-length_scene, -length_scene, part , length_scene*2, pen, brush);
-    rectangle = scene->addRect( length_scene, -length_scene, part , length_scene*2 + part, pen, brush);
-    QPen pen2(Qt::red);
     
-    qint16 x1{static_cast<short int>(-length_scene+part)};
-    qint16 y1{static_cast<short int>(-length_scene+part)};
-    qint16 x2{static_cast<short int>(-length_scene+part)};
-    qint16 y2{static_cast<short int>(length_scene)};
-    // line = scene->addLine(x1, y1, x2, y2, pen2);
-    for (size_t i{}; i<cell_num*2; i++)
-    {
-        line = scene->addLine(x1, y1, x2, y2, pen2);
-        x1 += part;
-        x2 += part;
-        
-    }
-
+    // QGraphicsRectItem *rectangle;
+    // QGraphicsLineItem *line;
+    // QBrush brush(Qt::black);
+    // QPen pen(Qt::black);
+    // qint16 part{static_cast<short int> (length_scene/cell_num)};
+    // // rectangle = scene->addRect(0, 0, 2 , 2, pen, brush);
+    // rectangle = scene->addRect(0, 0, length_scene, part, pen, brush);
+    // rectangle = scene->addRect(0, 0, part , length_scene, pen, brush);
+    // rectangle = scene->addRect(length_scene-part, 0, part , length_scene, pen, brush);
+    // rectangle = scene->addRect( 0, length_scene-part, length_scene , part, pen, brush);
+    
+    // // line = scene->addLine(x1, y1, x2, y2, pen2);
+    // for (size_t i{}; i<=cell_num; i++)
+    // {
+    //     line = scene->addLine(0, part*i, length_scene, part*i, pen);
+    //     line = scene->addLine(part*i, 0, part*i, length_scene, pen);
+    // }
+    set_field();
     
 
     udp_r.bind(QHostAddress{"0.0.0.0"}, port_broadcast);
@@ -87,6 +80,7 @@ void MainWindow::parse (std::string s)
     values[7] = values[7].substr(1, values[7].length()- 14);
     values.erase(values.begin());
 
+    cell_num = std::stoi(values[3]);
 //  Now each element in values is a string containing information
     score_blue = QString::fromStdString(values[2]);
     score_red = QString::fromStdString(values[7]);
@@ -97,22 +91,37 @@ void MainWindow::parse (std::string s)
 // Now we wannt to draw
     
 
+    if (std::count(values[1].begin(), values[1].end(), '[') == 2)
+    {
+        scene->clear();
+        ui->graphicsView->items().clear();
+        set_field();
+    }
 
 
+    std::string blue_loc {values[1].substr(1, values[1].find("]")-1)};
+    std::string red_loc {values[6].substr(1, values[6].find("]")-1)};
 
+    
+    std::string blue_x{blue_loc.substr(blue_loc.find(",")+1, blue_loc.length()-blue_loc.find(",")-1)};
+    std::string blue_y{blue_loc.substr(0,blue_loc.find(","))};
+    std::string red_x{red_loc.substr(red_loc.find(",")+1, red_loc.length()-red_loc.find(",")-1)};
+    std::string red_y{red_loc.substr(0,red_loc.find(","))};
 
+    // std::cout << std::endl ;
+    // std::cout << "****************" << blue_x << " "<< blue_y << "****************";
+    // std::cout << std::endl ;
 
+    // std::cout << std::endl ;
+    // std::cout << "****************" << red_x << " "<< red_y << "****************";
+    // std::cout << std::endl ;
 
+    draw_element(std::stoi(red_x), std::stoi(red_y), std::stoi(blue_x), std::stoi(blue_y));
+    
 
-
-
-
-
-
-
-    for (auto x:values)
-        std::cout << x << "     ";
-    std::cout << std::endl;
+    // for (auto x:values)
+    //     std::cout << x << "     ";
+    // std::cout << std::endl;
 }
 
 void MainWindow::change_bc_port()
@@ -164,5 +173,37 @@ void MainWindow::go_down()
     qDebug() << " ";
     qDebug() << "sending to ip: " << command_ip << " and port: " << command_port << "and message: " << packet.toStdString().c_str() << "with length: " << packet.length();
 }
+void MainWindow::set_field()
+{
+    QGraphicsRectItem *rectangle;
+    QGraphicsLineItem *line;
+    QBrush brush(Qt::black);
+    QPen pen(Qt::black);
+    qint16 part{static_cast<short int> (length_scene/cell_num)};
+    // rectangle = scene->addRect(0, 0, 2 , 2, pen, brush);
+    rectangle = scene->addRect(0, 0, length_scene, part, pen, brush);
+    rectangle = scene->addRect(0, 0, part , length_scene, pen, brush);
+    rectangle = scene->addRect(length_scene-part, 0, part , length_scene, pen, brush);
+    rectangle = scene->addRect( 0, length_scene-part, length_scene , part, pen, brush);
+    
+    // line = scene->addLine(x1, y1, x2, y2, pen2);
+    for (size_t i{}; i<=cell_num; i++)
+    {
+        line = scene->addLine(0, part*i, length_scene, part*i, pen);
+        line = scene->addLine(part*i, 0, part*i, length_scene, pen);
+    }
 
+    draw_element((cell_num-1)/2 - 2, (cell_num-1)/2, (cell_num-1)/2 + 2, (cell_num-1)/2 );
+}
+void MainWindow::draw_element(qint16 x_red, qint16 y_red, qint16 x_blue, qint16 y_blue)
+{
+    qint16 part{static_cast<short int> (length_scene/cell_num)};
+    QGraphicsRectItem *rectangle;
+    QPen pen_red(Qt::red);
+    QPen pen_blue(Qt::blue);
+    QBrush brush_red(Qt::red);
+    QBrush brush_blue(Qt::blue);
+    rectangle = scene->addRect((x_blue)*part, (y_blue)*part, part , part, pen_blue, brush_blue);
+    rectangle = scene->addRect((x_red)*part, (y_red)*part, part , part, pen_red, brush_red);
+}
 

@@ -11,6 +11,7 @@
 #include <QtCore>
 #include <QtGui>
 #include <QGraphicsScene>
+#include <algorithm>
 
 
 QT_BEGIN_NAMESPACE
@@ -42,6 +43,8 @@ public:
     void go_right();
     void go_left();
     void go_down();
+    void set_field();
+    void draw_element(qint16 x_red, qint16 y_red, qint16 x_blue, qint16 y_blue);
     
 
 private:

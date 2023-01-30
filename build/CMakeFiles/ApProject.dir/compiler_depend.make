@@ -2894,6 +2894,7 @@ CMakeFiles/ApProject.dir/mainwindow.cpp.o: ../mainwindow.cpp \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QGraphicsScene \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qgraphicsscene.h \
   ApProject_autogen/include/ui_mainwindow.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtGui/QAction \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QApplication \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qapplication.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QCheckBox \
@@ -2919,6 +2920,8 @@ CMakeFiles/ApProject.dir/mainwindow.cpp.o: ../mainwindow.cpp \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QLineEdit \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qlineedit.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QMainWindow \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QMenu \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qmenu.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QMenuBar \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qmenubar.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qmenu.h \
@@ -2928,11 +2931,15 @@ CMakeFiles/ApProject.dir/mainwindow.cpp.o: ../mainwindow.cpp \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qlayoutitem.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QStatusBar \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qstatusbar.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QVBoxLayout \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qboxlayout.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QWidget \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qwidget.h
 
 
 /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QWidget:
+
+/home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QVBoxLayout:
 
 /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QSpacerItem:
 
@@ -2940,9 +2947,11 @@ CMakeFiles/ApProject.dir/mainwindow.cpp.o: ../mainwindow.cpp \
 
 /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QPushButton:
 
+/home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QMenuBar:
+
 /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qmenu.h:
 
-/home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QMenuBar:
+/home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QMenu:
 
 /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qlineedit.h:
 
@@ -2965,6 +2974,8 @@ CMakeFiles/ApProject.dir/mainwindow.cpp.o: ../mainwindow.cpp \
 /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qgraphicsview.h:
 
 /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QGraphicsView:
+
+/home/amirali/Qt/6.4.2/gcc_64/include/QtGui/QAction:
 
 ../main.cpp:
 
