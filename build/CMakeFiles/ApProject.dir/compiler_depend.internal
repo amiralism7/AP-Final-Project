@@ -2930,6 +2930,8 @@ CMakeFiles/ApProject.dir/mainwindow.cpp.o
  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qmenu.h
  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QPushButton
  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qpushbutton.h
+ /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QRadioButton
+ /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qradiobutton.h
  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QSpacerItem
  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qlayoutitem.h
  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QStatusBar

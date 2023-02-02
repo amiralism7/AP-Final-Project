@@ -2927,6 +2927,8 @@ CMakeFiles/ApProject.dir/mainwindow.cpp.o: ../mainwindow.cpp \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qmenu.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QPushButton \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qpushbutton.h \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QRadioButton \
+  /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qradiobutton.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QSpacerItem \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qlayoutitem.h \
   /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QStatusBar \
@@ -2942,6 +2944,8 @@ CMakeFiles/ApProject.dir/mainwindow.cpp.o: ../mainwindow.cpp \
 /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QVBoxLayout:
 
 /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QSpacerItem:
+
+/home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/QRadioButton:
 
 /home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qpushbutton.h:
 
@@ -3472,6 +3476,8 @@ ApProject_autogen/include/ui_mainwindow.h:
 /usr/include/c++/11/ext/new_allocator.h:
 
 /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qcompare_impl.h:
+
+/home/amirali/Qt/6.4.2/gcc_64/include/QtWidgets/qradiobutton.h:
 
 /home/amirali/Qt/6.4.2/gcc_64/include/QtCore/qnumeric.h:
 

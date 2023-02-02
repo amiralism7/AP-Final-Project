@@ -36,7 +36,10 @@ public:
     void go_left();
     void go_down();
     void set_field();
-    void draw_element(qint16 x_red, qint16 y_red, qint16 x_blue, qint16 y_blue);
+    void draw_element();
+    QString algo_solve();
+    void count(int i, int j, int &ans);
+    void reset_count();
     
 
 private:
@@ -54,11 +57,15 @@ private:
     QString packet;
     QGraphicsScene *scene;
     qint16 length_scene;
-    std::vector<std::vector<int>> map;
+    std::vector<std::vector<int*>> map;
     // std::vector<std::vector<int>> map_tmp;
-    std::vector<int> row_tmp;
-    qint16 head_x;
-    qint16 head_y;
+    std::vector<int*> row_tmp;
+    qint16 head_x_blue;
+    qint16 head_y_blue;
+    qint16 head_x_red;
+    qint16 head_y_red;
+    QString team_color;
+    
 
     
 
